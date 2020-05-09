@@ -8,7 +8,7 @@ def home(request):
 
 def password(request):
 
-    charectors = list('abcdefghijklmnopqrstuvwxyz')
+    charectors = list('abcdefghijklmfdfkjfoeinopqrstuvwxyz')
 
     if request.GET.get('uppercase'):
         charectors.extend(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
